@@ -9,7 +9,7 @@ public class Solution {
         int diff;
         int temp;
         int[] dix = new int[2];
-        for(int i=0; i<nums.length; i++) {
+        for(int i = 0; i < nums.length; i++) {
             temp = nums[i];
             diff = target - temp;
             if(map.get(diff) == null) {
