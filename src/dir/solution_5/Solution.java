@@ -3,9 +3,6 @@ package dir.solution_5;
 public class Solution {
     public static String longestPalindrome(String s) {
         int[] inf = new int[5];
-        for (int i : inf) {
-            i = 0;
-        }
         int len = s.length();
         if (len == 0) {
             return "";
