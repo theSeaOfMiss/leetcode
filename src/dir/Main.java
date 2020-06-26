@@ -1,7 +1,13 @@
 package dir;
 
 import dir.lib.solution_2.*;
+
+import java.util.Stack;
+
 import static dir.solution_2.Solution.*;
+import static dir.solution_5.Solution.*;
+import static dir.solution_7.Solution.*;
+import static dir.solution_8.Solution.*;
 
 public class Main {
 
@@ -19,13 +25,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
-	// write your code here
-        int[] test1 = {1,2,3,4,5,6,7,8};
-        int[] test2 = {2,3,4};
-        int[] test3;
-        test3 = test1;
-        test3[0] = 200;
-        printIntArray(test1);
+        System.out.println(myAtoi("9128347239"));
+       int res = 9;
+       int max = Integer.MAX_VALUE;
+       res += Math.pow(10, 10);
+       System.out.println(res);
 
     }
 }
