@@ -5,7 +5,8 @@ import java.util.LinkedList;
 public class ListNode {
     public int val;
     public ListNode next;
-    public ListNode(int x) { val = x; }
+    public ListNode(int val) { this.val = val; }
+    public ListNode(int val, ListNode next) {this.val = val; this.next = next; }
 
     // 将整数数组转化为链表
     public static ListNode arrayToListNode (int[] nums) {
